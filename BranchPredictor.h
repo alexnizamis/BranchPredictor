@@ -18,7 +18,7 @@ struct Table
 string IntToBinStr(int shiftReg)
 {
 
-	if ( shiftReg == 0 ) return "0";
+    if ( shiftReg == 0 ) return "0";
     if ( shiftReg == 1 ) return "1";
 
     if (shiftReg % 2 == 0 )
